@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "version": "0.1",
+    "name": "Bento",
+    "description": "🍱 Minimalist, elegant and simple startpage inspired by the Bento box!",
+    "author": "Miguel R. Ávila",
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/favicon.png",
+            "32": "icons/favicon.png"
+        }
+    },
+    "icons": {
+        "48": "icons/favicon.png",
+        "96": "icons/favicon.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "content_security_policy": "script-src 'self' https://unpkg.com; object-src 'self'"
+}
